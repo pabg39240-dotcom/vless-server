@@ -14,8 +14,11 @@
         "decryption": "none"
       },
       "streamSettings": {
-        "network": "xhttp",
-        "security": "none"
+        "network": "ws",
+        "security": "none",
+        "wsSettings": {
+          "path": "/vless"
+        }
       }
     }
   ],
